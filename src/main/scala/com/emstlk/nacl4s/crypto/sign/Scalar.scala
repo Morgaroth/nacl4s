@@ -92,13 +92,13 @@ object Scalar {
     var carry10 = (s10 + (1 << 20)) >> 21
     s11 += carry10
     s10 -= carry10 << 21
-    var carry12 = (s12 + (1 << 20)) >> 21
+    val carry12 = (s12 + (1 << 20)) >> 21
     s13 += carry12
     s12 -= carry12 << 21
-    var carry14 = (s14 + (1 << 20)) >> 21
+    val carry14 = (s14 + (1 << 20)) >> 21
     s15 += carry14
     s14 -= carry14 << 21
-    var carry16 = (s16 + (1 << 20)) >> 21
+    val carry16 = (s16 + (1 << 20)) >> 21
     s17 += carry16
     s16 -= carry16 << 21
 
@@ -111,10 +111,10 @@ object Scalar {
     var carry11 = (s11 + (1 << 20)) >> 21
     s12 += carry11
     s11 -= carry11 << 21
-    var carry13 = (s13 + (1 << 20)) >> 21
+    val carry13 = (s13 + (1 << 20)) >> 21
     s14 += carry13
     s13 -= carry13 << 21
-    var carry15 = (s15 + (1 << 20)) >> 21
+    val carry15 = (s15 + (1 << 20)) >> 21
     s16 += carry15
     s15 -= carry15 << 21
 
